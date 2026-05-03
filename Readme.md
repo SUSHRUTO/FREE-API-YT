@@ -7,15 +7,10 @@ This project integrates the FreeAPI YouTube endpoint and displays curated videos
 
 ## 🚀 Live Demo
 
-👉 (Add your deployed link from Vercel or Netlify)
+👉 https://free-api-yt.vercel.app/
 
 ---
 
-## 📂 GitHub Repository
-
-👉 (Add your repository link here)
-
----
 
 ## 📌 Features
 
@@ -87,7 +82,7 @@ https://api.freeapi.app/api/v1/public/youtube/videos
 1. Clone the repository:
 
 ```bash id="git1"
-git clone <your-repo-link>
+git clone https://github.com/SUSHRUTO/FREE-API-YT
 ```
 
 2. Open the project folder
