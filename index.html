@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Videos UI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- HEADER -->
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-red-500">
+      YouTube Video Listing
+    </h1>
+
+    <button 
+      onclick="loadVideos()"
+      class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+    >
+      Reload Videos
+    </button>
+  </header>
+
+  <!-- LOADING TEXT -->
+  <p 
+    id="loading" 
+    class="text-center mt-6 text-lg hidden font-semibold"
+  >
+    Loading videos...
+  </p>
+
+  <!-- VIDEO GRID -->
+  <div 
+    id="video-container" 
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6"
+  >
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="text-center text-gray-500 text-sm mb-4">
+    Built using FreeAPI YouTube Endpoint
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
